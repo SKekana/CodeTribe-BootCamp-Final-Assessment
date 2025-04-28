@@ -63,6 +63,7 @@ body {
 .publish-date {
   font-size: 0.8em;
   margin-bottom: 15px;
+  font-weight: 500;
 }
 
 .card-title {
@@ -77,6 +78,7 @@ body {
   line-height: 1.5;
   margin-bottom: 20px;
   color: grey;
+  font-weight: 500;
 }
 
 .auth {
