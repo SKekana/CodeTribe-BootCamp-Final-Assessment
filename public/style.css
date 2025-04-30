@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf")
+    format("truetype-variations");
+  font-weight: 1 1000;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 350px;
+  box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.publish-date {
+  font-size: 0.8em;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.card-title {
+  font-size: 1.4em;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: hsl(0, 0%, 7%);
+}
+.card-title a {
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+}
+
+.card-title a:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.card-description {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 42%);
+  font-weight: 500;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+}
+
+.auth-avi {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+.auth-name {
+  font-weight: 800;
+  font-size: 0.9em;
+}
+
+@media (max-width: 400px) {
+  .card {
+    margin: 15px;
+    padding: 15px;
+    max-width: calc(100% - 30px);
+  }
+
+  .card-title {
+    font-size: 1.2em;
+  }
+
+  .card-description {
+    font-size: 0.95em;
+  }
+}
